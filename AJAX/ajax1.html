@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="author" content="Gijs Huitenga, MD1A">
+		<title>AJAX Demo</title>
+		<link rel="stylesheet" type="text/css" href="ajax.css">
+	</head>
+	<body>
+		<h2>Form-1 Classic</h2>
+		<form method="get" action="form_1.php">
+			<input type="text" name="firstName" id="firstname" placeholder="voornaam">
+			<input type="text" name="lastName" id="lastname" placeholder="achternaam">
+			<br>
+			<input type="text" name="age" id="age" placeholder="leeftijd">
+			<br>
+			<input type="text" name="email" id="email" placeholder="email">
+			<br>
+			<input type="submit" id="submitButton" value="submit">
+			<input type="reset" name="reset">
+		</form>
+		<div id="responseHere">Response maakt een nieuwe pagina.</div>
+		<script src="ajax.js"></script>
+	</body>
+</html>
